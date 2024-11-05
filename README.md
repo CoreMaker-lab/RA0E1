@@ -34,7 +34,20 @@ This article primarily explains how to use e2studio to implement GPIO output on 
 This section mainly explains how to use J-Link to program the Renesas RA chip.
 
 
+- **RA0E1_project4**:e2studio开发RA0E1(4)---使用UART串口烧写程序到瑞萨芯片
+- **CSDN Blog**:[https://blog.csdn.net/xinzuofang/article/details/139103292](https://blog.csdn.net/xinzuofang/article/details/139103292)
 
+本篇文章主要介绍如何使用UART串口烧写程序到瑞萨芯片，并以实际项目进行演示。
+RA0E1不能使用串口烧录程序，这里使用的是RA4M2。
+
+This article mainly introduces how to use the UART serial port to program a Renesas chip, demonstrated with an actual project. Note that the RA0E1 cannot be programmed via UART; here, the RA4M2 is used instead.
+
+- **RA0E1_project5**:e2studio开发RA0E1(5)---导出和导入项目
+- **CSDN Blog**:[https://blog.csdn.net/xinzuofang/article/details/140423908](https://blog.csdn.net/xinzuofang/article/details/140423908)
+
+本篇文章详细介绍如何在 e² studio 集成开发环境中导出和导入 .zip 格式的 e² studio 项目。通过本指南，您将学会如何将项目从一个工作空间中导出，并在另一个工作空间中重新导入，确保项目的完整性和可移植性。这对于团队协作和项目备份来说尤为重要。
+
+This article provides a detailed guide on how to export and import .zip format e² studio projects within the e² studio integrated development environment. Through this guide, you will learn how to export a project from one workspace and re-import it into another, ensuring the project's integrity and portability. This process is especially important for team collaboration and project backups.
 
 
 
