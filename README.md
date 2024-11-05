@@ -8,6 +8,15 @@
 
 ![image](https://github.com/user-attachments/assets/cd1c4acd-e865-4a1a-905f-6e504be410fd)
 
+![image](https://github.com/user-attachments/assets/ad13a241-f0de-424c-ae63-87e7b4f667ca)
+
+![image](https://github.com/user-attachments/assets/96a15ebf-7c3a-455c-b07b-f357ac3229bb)
+
+![image](https://github.com/user-attachments/assets/0c773de1-f139-4c73-93cc-f29eaf1487a9)
+
+![image](https://github.com/user-attachments/assets/10617e6e-d893-4aaf-9a5b-5be5522bfb81)
+
+
 # Project Introduction
 - **RA0E1_project1**:e2studio开发RA0E1(1)---GPIO输出
 - **CSDN Blog**:[https://blog.csdn.net/xinzuofang/article/details/138591646](https://blog.csdn.net/xinzuofang/article/details/138591646)
