@@ -17,6 +17,30 @@
 This article mainly introduces how to use e2studio to perform GPIO output on a Renesas microcontroller, with an LED display as an example.
 
 
+
+- **RA0E1_project2**:e2studio开发RA0E1(2)---GPIO输入检测
+- **CSDN Blog**:[https://blog.csdn.net/xinzuofang/article/details/138639249](https://blog.csdn.net/xinzuofang/article/details/138639249)
+
+本篇文章主要介绍如何使用e2studio对瑞萨单片机进行GPIO输出，并以LED显示。
+
+This article primarily explains how to use e2studio to implement GPIO output on a Renesas microcontroller, using an LED display as an example.
+
+
+- **RA0E1_project3**:e2studio开发RA0E1(3)---使用J-Link烧写程序到瑞萨芯片
+- **CSDN Blog**:[https://blog.csdn.net/xinzuofang/article/details/139078079](https://blog.csdn.net/xinzuofang/article/details/139078079)
+
+这一节主要讲解如何使用J-Link对瑞萨RA芯片进行烧录。
+
+This section mainly explains how to use J-Link to program the Renesas RA chip.
+
+
+
+
+
+
+
+
+
 # Contact Information
 
 - **Name**: Billy
