@@ -2,6 +2,10 @@
 - **Name**: RA0E1_SENSOR-V1.0
 - **MCU**: R7FA0E1073CFJ#AA0
 - **IDE**: E2STUDIO
+
+# Buy Link
+[https://shop192352884.taobao.com/](https://shop192352884.taobao.com/)
+
  
 # Image
 ![image](https://github.com/user-attachments/assets/f8a5e03c-788d-42b8-9f17-03dd720ad872)
