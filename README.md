@@ -110,6 +110,7 @@ The main function of the One-Shot Pulse Output mode is to generate a single puls
 # Contact Information
 
 - **Name**: Billy
+- **交流群**: 925643491
 - **Email**: a845656974@outlook.com
 - **Phone**: +86 15622736378
 - **CSDN Blog**: [Blog](https://blog.csdn.net/xinzuofang)
