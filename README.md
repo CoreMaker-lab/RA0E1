@@ -24,6 +24,8 @@
 # Project Introduction
 - **RA0E1_project1**:e2studio开发RA0E1(1)---GPIO输出
 - **CSDN Blog**:[https://blog.csdn.net/xinzuofang/article/details/138591646](https://blog.csdn.net/xinzuofang/article/details/138591646)
+- **Video**:[https://www.bilibili.com/video/BV1Yr421J7sE/](https://www.bilibili.com/video/BV1Yr421J7sE/)
+
 
 本篇文章主要介绍如何使用e2studio对瑞萨单片机进行GPIO输出，并以LED显示。
 
