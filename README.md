@@ -158,6 +158,81 @@ EZ-CUBE3 (CYRCNEZCUBE03) is an on-chip debug emulator with Flash memory programm
 EZ-CUBE3 supports MCU families including RA, RL78, and RX.
 
 
+- **RA0E1_project14**:e2studio开发RA0E1(14)---使用EZ-CUBE3烧录
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/144559775](https://coremaker.blog.csdn.net/article/details/144559775)
+
+
+EZ-CUBE3（CYRCNEZCUBE03）是具有Flash存储器编程功能的片上调试仿真器，可以用于调试MCU程序或将程序烧写到MCU的内置Flash中。
+EZ-CUBE3支持RA、RL78和RX产品家族MCU。
+
+EZ-CUBE3 (CYRCNEZCUBE03) is an on-chip debugging emulator with Flash memory programming capabilities. It can be used for debugging MCU programs or flashing programs into the built-in Flash of the MCU.
+EZ-CUBE3 supports MCUs from the RA, RL78, and RX product families.
+
+- **RA0E1_project15**:e2studio开发RA0E1(15)----IIC驱动水压计LPS28DFW
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145137611](https://coremaker.blog.csdn.net/article/details/145137611)
+
+本篇文章主要介绍如何使用e2studio对瑞萨进行IIC配置，使用 LPS28DFW 传感器来读取数据，读取到的数据会被转换为适当的单位并通过串行通信输出。
+
+This article mainly introduces how to configure I2C for Renesas using e2studio, and how to read data from the LPS28DFW sensor. The read data will be converted into appropriate units and output via serial communication.
+
+
+- **RA0E1_project16**:e2studio开发RA0E1(16)----配置RTC时钟及显示时间
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145182443](https://coremaker.blog.csdn.net/article/details/145182443)
+
+
+本文将详细讲解如何借助e2studio来对瑞萨微控制器进行实时时钟（RTC）的设置和配置，以便实现日历功能和一秒钟产生的中断，从而通过串口输出实时数据。
+实时时钟（RTC）模块是一种时间管理外设，主要用于记录和控制日期和时间。与常见的微控制器（MCU）中的定时器不同，RTC时钟提供了两种计时方式：日期模式和计时模式。RTC时钟的常用功能包括设置时间、设定闹钟、配置周期性中断以及启动或停止操作。
+通过使用e2studio工具，我们可以轻松地对瑞萨微控制器进行RTC配置，从而实现高精度的时间和日期管理。在本文中，我们将重点讨论如何设置RTC时钟日历和产生一秒钟的中断，使得串口能够实时打印数据。
+
+
+This article will provide a detailed explanation on how to configure the Real-Time Clock (RTC) on Renesas microcontrollers using e2studio. This configuration will enable calendar functionality and generate interrupts every second, allowing real-time data to be output via serial communication.
+
+The RTC (Real-Time Clock) module is a time management peripheral used primarily for recording and controlling dates and times. Unlike common timers in microcontrollers (MCUs), the RTC provides two types of timekeeping modes: date mode and time mode. Common functions of the RTC clock include setting the time, setting alarms, configuring periodic interrupts, and starting or stopping operations.
+
+By using the e2studio tool, we can easily configure the RTC on Renesas microcontrollers for accurate time and date management. In this article, we will focus on how to set up the RTC clock calendar and generate one-second interrupts to allow the serial port to print data in real time.
+
+
+- **RA0E1_project17**:e2studio开发RA0E1(17)----ADC单通道采集电压
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145195166](https://coremaker.blog.csdn.net/article/details/145195166)
+
+
+本篇文章主要介绍如何使用e2studio对瑞萨单片机进行ADC单通道采集电压。
+
+This article primarily introduces how to use e2studio to perform single-channel ADC voltage acquisition on Renesas microcontrollers.
+
+
+- **RA0E1_project18**:e2studio开发RA0E1(18)----ADC扫描多通道采样
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145195211](https://coremaker.blog.csdn.net/article/details/145195211)
+
+
+在嵌入式系统中，ADC（模数转换器）是一个非常重要的组件，它将模拟信号转换为数字信号。为了提高采样效率和扩展应用，瑞萨MCU支持多通道扫描模式，允许同时采集多个模拟信号。在本文中，将在上篇文章基础上探讨如何配置ADC模块进行多通道扫描，并采集来自不同的输入模拟信号。
+
+In embedded systems, the ADC (Analog-to-Digital Converter) is a crucial component that converts analog signals into digital signals. To improve sampling efficiency and extend applications, Renesas MCUs support multi-channel scan mode, which allows simultaneous acquisition of multiple analog signals. Building on the previous article, this one will explore how to configure the ADC module for multi-channel scanning and acquire data from different input analog signals.
+
+- **RA0E1_project19**:e2studio开发RA0E1(19)----ADC分组扫描多通道采样
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145250765](https://coremaker.blog.csdn.net/article/details/145250765)
+
+本文主要介绍在单个ADC模块的基础上，通过逻辑分组实现多通道扫描采样的方法。ADC模块（r_adc_d）支持将多个通道分组进行配置，例如将通道0-3作为一组，通道4-7作为另一组，分别进行扫描采样。通过在软件中交替启用两个分组，可以完成对所有通道的高效采样。
+
+
+This article primarily introduces the method of multi-channel scanning sampling through logical grouping based on a single ADC module. The ADC module (r_adc_d) supports grouping multiple channels for configuration. For example, channels 0-3 can be grouped together, and channels 4-7 can be grouped separately, each performing scanning sampling. By alternately enabling these two groups in software, efficient sampling of all channels can be achieved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
