@@ -218,7 +218,14 @@ In embedded systems, the ADC (Analog-to-Digital Converter) is a crucial componen
 This article primarily introduces the method of multi-channel scanning sampling through logical grouping based on a single ADC module. The ADC module (r_adc_d) supports grouping multiple channels for configuration. For example, channels 0-3 can be grouped together, and channels 4-7 can be grouped separately, each performing scanning sampling. By alternately enabling these two groups in software, efficient sampling of all channels can be achieved.
 
 
+- **RA0E1_project20**:e2studio开发RA0E1(20)----独立看门狗IWDT
+- **CSDN Blog**:[https://coremaker.blog.csdn.net/article/details/145250775](https://coremaker.blog.csdn.net/article/details/145250775)
 
+本文主要阐述了如何借助e2studio工具对瑞萨独立看门狗IWDT进行配置设置，同时设置RTC时钟产生每秒的周期性中断，并通过串口输出观察独立看门狗IWDT的计数情况。
+配置看门狗定时器以提高系统稳定性，防止系统长时间处于死循环。
+
+
+This article primarily explains how to configure the Renesas independent watchdog (IWDT) using the e2studio tool. It also covers setting up the RTC clock to generate periodic interrupts every second and monitoring the IWDT counter via serial output. Configuring the watchdog timer enhances system stability and prevents the system from remaining in an infinite loop for extended periods.
 
 
 
